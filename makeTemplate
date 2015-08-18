@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo Preparing machine for template, after this it will not avialable remotely
+
+rm /etc/hostid
+
+ipadm delete-addr e1000g2/v4
+ipadm delete-addr e1000g1/v4
+ipadm delete-addr e1000g0/v4
