@@ -2,6 +2,8 @@
 
 echo Preparing machine for template, after this it will not avialable remotely
 
+rm -rf /root/hpr
+rm /root/*
 rm /etc/hostid
 
 ipadm delete-addr e1000g2/v4
