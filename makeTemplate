@@ -3,6 +3,7 @@
 echo Preparing machine for template, after this it will not avialable remotely
 
 rm -rf /root/hpr
+rm -rf /root/hprdb
 rm /root/*
 rm /etc/hostid
 
